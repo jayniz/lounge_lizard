@@ -1,5 +1,14 @@
-require 'bundler/gem_tasks'
-require 'rspec/core/rake_task'
+begin
+  require 'bundler/gem_tasks'
+rescue LoadError
+  puts 'Could not load bundler/gem_tasks'
+end
+
+begin
+  require 'rspec/core/rake_task'
+rescue LoadError
+  puts 'Could not load rspec/core/rake_tas'
+end
 
 RSpec::Core::RakeTask.new(:spec)
 
