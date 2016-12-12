@@ -9,8 +9,7 @@ The drafter version used by the current Lounge Lizard version is 3.2.2
 
 ### Drafter
 
-This is just a ruby way to use Drafter. For documentation about drafter go to 
-[drafter](https://github.com/apiaryio/drafter)
+This is just wrapper to use Drafter. Check [drafter's repository](https://github.com/apiaryio/drafter) for more info
 
 ## Install
 
@@ -35,9 +34,9 @@ You can also call the c++ function directly. For an example, just check `lib/lou
     $ git submodule update --init --recursive
     ```
 
-2. As drafter is a native extension (c++ library) you need to compile it
-before using it. `rake` will take care of compiling it:
-
+2. Lounge Lizard has drafter as a native extension. This meaning, drafter is 
+a c++ library you need to compile it before using it. `rake` will take care of 
+compiling it:
 
     ```sh
     $ rake
