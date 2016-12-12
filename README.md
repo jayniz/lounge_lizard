@@ -1,4 +1,4 @@
-# Lounge Lizard [![Circle CI](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master.svg?style=shield)](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master) [![Coverage Status](https://coveralls.io/repos/moviepilot/lounge_lizard/badge.svg?branch=master&service=github)](https://coveralls.io/github/moviepilot/lounge_lizard?branch=master)
+# Lounge Lizard [![Circle CI](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master.svg?style=shield)](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master) [![Coverage Status](https://coveralls.io/repos/moviepilot/lounge_lizard/badge.svg?branch=master&service=github)](https://coveralls.io/github/moviepilot/lounge_lizard?branch=master) [![Dependency Status](https://gemnasium.com/moviepilot/lounge_lizard.svg)](https://gemnasium.com/moviepilot/lounge_lizard) [![Gem Version](https://badge.fury.io/rb/lounge_lizard.svg)](https://badge.fury.io/rb/lounge_lizard)
 
 ![](https://cloud.githubusercontent.com/assets/3609616/21100043/238d67cc-c072-11e6-9f4e-252e9cb1ae19.jpg)
 
