@@ -1,4 +1,7 @@
-# LoungeLizard
+
+# LoungeLizard [![Circle CI](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master.svg?style=shield)](https://circleci.com/gh/moviepilot/lounge_lizard/tree/master) [![Coverage Status](https://coveralls.io/repos/moviepilot/lounge_lizard/badge.svg?branch=master&service=github)](https://coveralls.io/github/moviepilot/lounge_lizard?branch=master)
+
+![](https://cloud.githubusercontent.com/assets/3609616/21100043/238d67cc-c072-11e6-9f4e-252e9cb1ae19.jpg)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lounge_lizard`. To experiment with that code, run `bin/console` for an interactive prompt.
 
