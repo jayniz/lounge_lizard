@@ -9,7 +9,7 @@ The drafter version used by the current Lounge Lizard version is 3.2.2
 
 ### Drafter
 
-This is just wrapper to use Drafter. Check [drafter's repository](https://github.com/apiaryio/drafter) for more info
+This is just ruby wrapper to use Drafter. Check [drafter's repository](https://github.com/apiaryio/drafter) for more info
 
 ## Install
 
@@ -18,7 +18,7 @@ $  gem install lounge_lizard
 ```
 
 ## Usage
-`LoungeLizard.parse(mson_file)` will return a hash representing the AST of the mson file.
+`LoungeLizard.parse(mson_string_content)` will return a hash representing the AST of the mson file.
 
 You can also call the c++ function directly. For an example, just check `lib/lounge_lizard.rb`:
 
@@ -44,8 +44,7 @@ compiling it:
 
 ## Credit
 
-The way this gem is build is very similar to [redsnow](https://github.com/apiaryio/redsnow).
-It just provides a binding, but it's up to date
+The way this gem is build is very similar to [redsnow](https://github.com/apiaryio/redsnow). So cheers to them!
 
 ## License
 MIT License. See the [LICENSE](https://github.com/moviepilot/lounge_lizard/blob/master/LICENSE) file.
