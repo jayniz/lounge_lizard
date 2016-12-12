@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'ffi'
 
-  spec.add_runtime_dependency 'bundler', '~> 1.13'
+  spec.add_runtime_dependency 'bundler', ["~> 1.0"]
   spec.add_development_dependency 'byebug'
   spec.add_development_dependency 'codeclimate-test-reporter', ["~> 1.0"]
   spec.add_development_dependency 'coveralls'
