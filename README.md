@@ -22,7 +22,7 @@ $  gem install lounge_lizard
 
 You can also call the c++ function directly. For an example, just check `lib/lounge_lizard.rb`:
 
-`LoungeLizard.drafter_parse_blueprint_to(mson_file, ffi_pointer, options_struct)`
+`LoungeLizard.drafter_parse_blueprint_to(mson_string_content, ffi_pointer, options_struct)`
 
 ## Build
 
