@@ -6,11 +6,11 @@ end
 
 begin
   require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:spec)
 rescue LoadError
   puts 'Could not load rspec/core/rake_tas'
 end
 
-RSpec::Core::RakeTask.new(:spec)
 
 task default: :compile
 

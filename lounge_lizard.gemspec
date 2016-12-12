@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files << Dir['ext/drafter/**/*'].reject { |f| f =~ /cmdline|test|features|README*|LICENSE|Gemfile*|\.xcode*/ }
   spec.bindir        = 'bin'
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.require_paths = %(lib ext)
+  spec.require_paths = %w(lib ext)
 
   spec.extensions = %w(Rakefile)
 
