@@ -10,7 +10,5 @@ module LoungeLizard
     Binding.drafter_parse_blueprint_to(mson, parse_result, Binding::DrafterOptions.as_json)
     parse_result = parse_result.get_pointer(0)
     parse_result.read_string unless parse_result.null?
-  ensure
-    parse_result.free
   end
 end
